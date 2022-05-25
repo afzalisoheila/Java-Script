@@ -23,5 +23,19 @@ else if (month >6 && month <=9) {
 else if (month <=12) {
     console.log("winter");
 } 
-let email =
-let pass=12
+let email ="soheila.afzali@gmail.com"
+let pass = "1234"
+if (email == "soheila.afzali@gmail.com") {
+    console.log("you can login");
+    
+}
+if (email != "soheila.afzali@gmail.com") {
+    console.log("you can't login"); 
+} 
+
+if (pass == "1234") {
+    console.log("you can login");
+}
+if (pass != "1234") {
+    console.log("you can't login");
+}
