@@ -39,3 +39,24 @@ if (pass == "1234") {
 if (pass != "1234") {
     console.log("you can't login");
 }
+//1 3 5 7 9...//
+for (let i=0; i <20; i++) {
+    console.log(i*2+1);
+    
+}
+
+// 1 4 9 16 25 36....//
+for (let i=1; i <10; i++) {
+    console.log(i*i);
+    
+}
+for (let i=1; i <=20; i++) {
+    console.log(i + 1);
+} 
+let t=1
+while (t<=20) {
+    console.log(t+1);
+}
+    
+
+
