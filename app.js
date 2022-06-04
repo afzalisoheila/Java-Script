@@ -58,7 +58,10 @@
 //     console.log(t + 1);
 //     t++
 // }
-let numbers = [19, 12, 13, 14, 10, 20, 15.6]
+let numbers = [19, 12, 13, 14, 10, 20, 15.6, 17]
+
+// <<<< replace 17 to 18>>>>
+
 for (let i = 0; i < numbers.length; i++) {
     if (numbers[i]!==17) {
         console.log(18); 
@@ -66,6 +69,7 @@ for (let i = 0; i < numbers.length; i++) {
     
 }
 
+// <<<< length>>>>
 
 // for (let i = 0; i < numbers.length; i++) {
 //     console.log(numbers[i]);
@@ -73,9 +77,16 @@ for (let i = 0; i < numbers.length; i++) {
 // }
 
 
+// <<<< average>>>>
 // let sum = 0
 // for (let i = 0; i < numbers.length; i++) {
 //     console.log(sum+=numbers[i]);
+
+let sum = 0; 
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+    console.log(sum);
+}
     
 
     
