@@ -58,16 +58,17 @@
 //     console.log(t + 1);
 //     t++
 // }
-let numbers = [19, 12, 13, 14, 10, 20, 15.6, 17]
+// let numbers = [19, 12, 13, 14, 10, 17, 20, 15.6, 17]
 
-// <<<< replace 17 to 18>>>>
-
-for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i]!==17) {
-        console.log(18); 
-    }
+// // <<<< replace 17 to 18>>>>
+// console.log(numbers);
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i]==17) {
+//         numbers[i]=18
+//     }
     
-}
+// }
+// console.log(numbers);
 
 // <<<< length>>>>
 
@@ -82,13 +83,106 @@ for (let i = 0; i < numbers.length; i++) {
 // for (let i = 0; i < numbers.length; i++) {
 //     console.log(sum+=numbers[i]);
 
-let sum = 0; 
-for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
-    console.log(sum);
-}
+// let sum = 0;
+// for (let i = 0; i < numbers.length; i++) {
+//     sum += numbers[i];
     
+// }
+// console.log(sum);
+// let average=sum/numbers.length
 
+const books = [
+        
+    {
+    name: "D'une idole",
+    author: "Michel Onfary",
+    publisher: "le livre de poche",
+    PublishYear: "2010",
+    price: "8€",
+        availableStores: [
+            {
+                name: "la FNAC",
+                address: { country: "France", city: "Paris/Lyon/Nice" }
+            },
+            {
+                name: "Amazon",
+                address: {link: "amazon.fr"}
+            }
+    ]
+    
+    },
+    {
+        name: "Howard  Hughes",
+        author: "Peter Brown",
+        publisher: "pocket",
+        PublishYear: "1996",
+        price: "7.80€",
+        availableStores: [
+            {
+                name: "la FNAC",
+                address: { country: "France", city: "Paris/Lyon/Nice" }
+            },
+            {
+                name: "Amazon",
+                address: {link: "amazon.fr"}
+            }
+    ]
+    },
+
+ {
+    name: "le grand manipulateur",
+    author: "Marc Endeweld",
+    publisher: "points",
+    PublishYear: "2010",
+     price: "7.70€",
+     availableStores: [
+        {
+            name: "la FNAC",
+            address: { country: "France", city: "Paris/Lyon/Nice" }
+        },
+        {
+            name: "le Divan",
+            address: {country: "France", city: "Paris", area:15}
+        }
+]
+    },
+    {
+        name: "petit traite",
+        author: "Sylvain Tesson",
+        publisher: "pocket",
+        PublishYear: "2005",
+        price: "7.80€",
+        availableStores: [
+            {
+                name: "furet du Nord",
+                address: { country: "France", city: "Paris/Lyon/marseille" }
+            },
+            {
+                name: "Gallimard",
+                address: { country: "France", city: "Paris/Lyon/marseille/Nice" }
+            }
+    ]
+    },
+    {
+        name: "cette pute me fera mourir",
+        author: "Saint Simon",
+        publisher: "le livre de poche",
+        PublishYear: "2007",
+        price: "7.10€",
+        availableStores: [
+            {
+                name: "la FNAC",
+                address: { country: "France", city: "Paris", area:18 }
+            },
+            {
+                name: "Amazon",
+                address: { link: "amazon.fr" }
+            },
+            
+    ]
+    },
+
+]
     
 
     
