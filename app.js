@@ -200,9 +200,22 @@ books.forEach(function (element) {
     }
   });
 });
-console.log(document.doctype);
-// console.log(document.getElementById("welcome"));
-const result = document.getElementById("welcome");
+
+const r = window.prompt("please enter your name!")
+
+if(r==true){
+  console.log("welcome to website!");
+   
+ }else{
+   console.log("signIn failed!");
+
+ }
+
+
+
+ console.log(document.doctype);
+// // console.log(document.getElementById("welcome"));
+ const result = document.getElementById("welcome");
 console.log(result);
 console.log(result.id);
 result.className = "subTitle1"
