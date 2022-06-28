@@ -200,3 +200,12 @@ books.forEach(function (element) {
     }
   });
 });
+console.log(document.doctype);
+// console.log(document.getElementById("welcome"));
+const result = document.getElementById("welcome");
+console.log(result);
+console.log(result.id);
+result.className = "subTitle1"
+
+console.log(result.className);
+result.innerText="Bienvenu"
