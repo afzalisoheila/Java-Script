@@ -203,7 +203,7 @@ books.forEach(function (element) {
 
 const r = window.prompt("please enter your name!")
 
-if(r==true){
+if(r){
   console.log("welcome to website!");
    
  }else{
