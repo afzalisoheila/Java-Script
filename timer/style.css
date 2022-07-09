@@ -1,0 +1,15 @@
+.counter-display{
+    text-align: center;
+    color: brown;
+}
+.counter-circle{
+    border: 2px solid rgb(177, 13, 13);
+    border-radius: 50%;
+    width: 135px;
+    height: 108px;
+    padding-top: 31px;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
